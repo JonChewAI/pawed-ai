@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- PRIMARY SEO -->
+<title>pawed.ai - Custom AI Pet Memorial & Tribute Apps | Generate Realistic Images of Your Pet</title>
+<meta name="description" content="Custom-built AI tribute apps that generate consistent, realistic images of your pet in any scene. Built with Luma UNI-1 by the AI Minimalist. From $999.">
+<meta name="keywords" content="AI pet memorial, pet tribute app, AI pet portrait, custom pet memorial, AI dog memorial, generative AI pet images, Luma AI pet, realistic pet images, pet remembrance, digital pet memorial, AI pet tribute, custom AI application">
+<meta name="author" content="Jonathan Chew - The AI Minimalist">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://pawed.ai/">
+
+<!-- OPEN GRAPH -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="pawed.ai - AI-Powered Pet Tribute Apps">
+<meta property="og:description" content="Custom-built AI apps that generate consistent, realistic images of your pet - anywhere in the world. In places they never got to visit.">
+<meta property="og:url" content="https://pawed.ai/">
+<meta property="og:site_name" content="pawed.ai">
+<!-- <meta property="og:image" content="https://pawed.ai/og-image.jpg"> -->
+
+<!-- TWITTER -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="pawed.ai - AI-Powered Pet Tribute Apps">
+<meta name="twitter:description" content="Custom-built AI apps that generate consistent, realistic images of your pet - anywhere in the world. In places they never got to visit.">
+<!-- <meta name="twitter:image" content="https://pawed.ai/og-image.jpg"> -->
+
+<!-- STRUCTURED DATA - Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "pawed.ai",
+  "url": "https://pawed.ai",
+  "description": "Custom AI-powered pet tribute applications that generate consistent, realistic images of your pet in any scene or environment.",
+  "founder": {
+    "@type": "Person",
+    "name": "Jonathan Chew",
+    "jobTitle": "Chief AI Officer",
+    "url": "https://www.linkedin.com/in/jonathanchew/",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "BrandRev.ai",
+      "url": "https://www.brandrev.ai/"
+    }
+  }
+}
+</script>
+
+<!-- STRUCTURED DATA - Product -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "pawed.ai Custom Pet Tribute App",
+  "description": "A bespoke AI-powered web application that generates consistent, realistic images of your pet in any scene, pose, or environment. Built on a personalised subdomain with Luma UNI-1.",
+  "brand": { "@type": "Brand", "name": "pawed.ai" },
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Founding Cohort",
+      "price": "999",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/LimitedAvailability",
+      "description": "Custom tribute app, 12-image reference library, 500 generations, 7-day delivery"
+    },
+    {
+      "@type": "Offer",
+      "name": "Standard",
+      "price": "1999",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "description": "Full custom build, 24-image reference library, 1000 generations, priority queue"
+    }
+  ]
+}
+</script>
+
+<!-- STRUCTURED DATA - FAQ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a pawed.ai pet tribute app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A custom-built AI web application deployed on a personalised subdomain (yourpet.pawed.ai) that generates consistent, realistic images of your pet in any scene, pose, or environment. Each app includes a studio-quality reference library built from your photos using Luma's UNI-1 model."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a pawed.ai tribute app cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Founding Cohort tier is $999 (limited to 20 spots) and includes 500 generations. The Standard tier is $1,999 with 1,000 generations and an expanded reference library. Payment is upfront."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to build a pet tribute app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each tribute app is custom-built and delivered within 7 days from receiving your photos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need any technical knowledge to use pawed.ai?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The app is designed for anyone to use. In testing, four out of five users had never touched generative AI and found the experience effortless."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What photos do I need to provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Phone photos are perfect. You share your favourite photos of your pet and we use Luma's UNI-1 model to generate a studio-quality reference library that captures every unique detail - markings, fur texture, and distinguishing features."
+      }
+    }
+  ]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --black: #0a0a0a;
+  --white: #ffffff;
+  --gray-50: #fafafa;
+  --gray-100: #f5f5f5;
+  --gray-200: #e5e5e5;
+  --gray-300: #d4d4d4;
+  --gray-400: #a3a3a3;
+  --gray-500: #737373;
+  --gray-600: #525252;
+  --gray-700: #404040;
+  --gray-800: #262626;
+  --gray-900: #171717;
+  --accent: #c8a87c;
+  --accent-light: #e8d5b8;
+  --accent-dark: #a08460;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--gray-900);
+  background: var(--white);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: var(--black);
+}
+
+.nav-logo span { color: var(--accent); }
+
+.nav-cta {
+  background: var(--black);
+  color: var(--white);
+  padding: 10px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.nav-cta:hover { background: var(--gray-800); transform: translateY(-1px); }
+
+/* HERO */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 32px 80px;
+  background: linear-gradient(180deg, var(--white) 0%, var(--gray-50) 100%);
+  text-align: center;
+}
+
+.hero-content { max-width: 800px; }
+
+.hero-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gray-600);
+  margin-bottom: 32px;
+  letter-spacing: 0.5px;
+}
+
+.hero-badge span { color: var(--accent-dark); font-weight: 700; }
+
+h1 {
+  font-size: clamp(36px, 6vw, 64px);
+  font-weight: 900;
+  line-height: 1.08;
+  letter-spacing: -2px;
+  color: var(--black);
+  margin-bottom: 24px;
+}
+
+h1 em {
+  font-style: normal;
+  color: var(--accent-dark);
+}
+
+.hero-sub {
+  font-size: 20px;
+  color: var(--gray-500);
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-weight: 400;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: var(--black);
+  color: var(--white);
+  padding: 16px 36px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s;
+  border: 2px solid var(--black);
+}
+
+.btn-primary:hover { background: var(--gray-800); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.15); }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--black);
+  padding: 16px 36px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid var(--gray-300);
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover { border-color: var(--black); }
+
+/* VIDEO */
+.video-section {
+  padding: 0 32px 100px;
+  background: var(--gray-50);
+}
+
+.video-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.12);
+  aspect-ratio: 16/9;
+  background: var(--black);
+  position: relative;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-400);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* SECTIONS */
+section { padding: 100px 32px; }
+
+.section-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent-dark);
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+  color: var(--black);
+  margin-bottom: 24px;
+}
+
+.section-text {
+  font-size: 18px;
+  color: var(--gray-600);
+  line-height: 1.7;
+  max-width: 680px;
+}
+
+/* PROBLEM */
+.problem { background: var(--white); }
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-top: 56px;
+}
+
+.problem-card {
+  padding: 36px;
+  border-radius: 12px;
+  border: 1px solid var(--gray-200);
+  background: var(--gray-50);
+}
+
+.problem-card .icon { font-size: 32px; margin-bottom: 16px; }
+
+.problem-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--black);
+}
+
+.problem-card p {
+  font-size: 16px;
+  color: var(--gray-500);
+  line-height: 1.6;
+}
+
+/* SOLUTION */
+.solution { background: var(--gray-50); }
+
+.solution-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 56px;
+}
+
+.feature {
+  padding: 32px;
+  border-radius: 12px;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  transition: all 0.2s;
+}
+
+.feature:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.06); }
+
+.feature-num {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  background: var(--black);
+  color: var(--white);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--black);
+}
+
+.feature p {
+  font-size: 15px;
+  color: var(--gray-500);
+  line-height: 1.6;
+}
+
+/* SHOWCASE */
+.showcase { background: var(--black); color: var(--white); }
+.showcase .section-label { color: var(--accent); }
+.showcase h2 { color: var(--white); }
+.showcase .section-text { color: var(--gray-400); }
+
+.showcase-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 32px;
+  padding: 14px 28px;
+  background: var(--accent-dark);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.showcase-link:hover { background: var(--accent); transform: translateY(-2px); }
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.showcase-img {
+  aspect-ratio: 1;
+  border-radius: 12px;
+  background: var(--gray-800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-600);
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.showcase-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.showcase-img:hover img {
+  transform: scale(1.05);
+}
+
+/* PRICING */
+.pricing { background: var(--white); }
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 56px;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: stretch;
+}
+
+.price-card {
+  padding: 40px;
+  border-radius: 16px;
+  border: 2px solid var(--gray-200);
+  position: relative;
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-card:hover { border-color: var(--gray-300); }
+
+.price-card .price-features { flex: 1; }
+
+.price-card .price-cta { margin-top: auto; }
+
+.price-card.featured {
+  border-color: var(--black);
+  background: var(--gray-50);
+}
+
+.price-badge {
+  position: absolute;
+  top: -13px;
+  left: 32px;
+  background: var(--black);
+  color: var(--white);
+  padding: 4px 16px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.price-tier {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray-500);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.price-amount {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--black);
+  letter-spacing: -2px;
+  margin-bottom: 4px;
+}
+
+.price-note {
+  font-size: 14px;
+  color: var(--gray-400);
+  margin-bottom: 28px;
+}
+
+.price-features {
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.price-features li {
+  padding: 8px 0;
+  font-size: 15px;
+  color: var(--gray-600);
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.price-features li::before {
+  content: "\2713";
+  color: var(--accent-dark);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.price-cta {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.price-cta.primary { background: var(--black); color: var(--white); }
+.price-cta.primary:hover { background: var(--gray-800); }
+.price-cta.secondary { background: var(--white); color: var(--black); border: 2px solid var(--gray-300); }
+.price-cta.secondary:hover { border-color: var(--black); }
+
+/* TOP UPS */
+.topups {
+  text-align: center;
+  margin-top: 48px;
+  padding: 32px;
+  background: var(--gray-50);
+  border-radius: 12px;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topups h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.topups p {
+  font-size: 15px;
+  color: var(--gray-500);
+  margin-bottom: 20px;
+}
+
+.topup-options {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.topup-pill {
+  padding: 10px 20px;
+  border: 1px solid var(--gray-200);
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-700);
+  background: var(--white);
+}
+
+/* WAITLIST / FORM */
+.waitlist {
+  background: var(--gray-900);
+  color: var(--white);
+}
+
+.waitlist .section-label { color: var(--accent); }
+.waitlist h2 { color: var(--white); }
+
+.waitlist-form {
+  max-width: 520px;
+  margin: 48px auto 0;
+}
+
+.form-group { margin-bottom: 20px; }
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-400);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 14px 16px;
+  background: var(--gray-800);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  color: var(--white);
+  font-size: 16px;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.form-group textarea { resize: vertical; min-height: 100px; }
+.form-group select option { background: var(--gray-800); }
+
+.form-submit {
+  width: 100%;
+  padding: 16px;
+  background: var(--accent-dark);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  margin-top: 8px;
+}
+
+.form-submit:hover { background: var(--accent); transform: translateY(-2px); }
+
+.form-note {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--gray-500);
+}
+
+/* FAQ */
+.faq { background: var(--gray-50); }
+
+.faq-list {
+  max-width: 720px;
+  margin: 48px auto 0;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--gray-200);
+  padding: 24px 0;
+}
+
+.faq-item:first-child { border-top: 1px solid var(--gray-200); }
+
+.faq-question {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--black);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.faq-question::after {
+  content: "+";
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--gray-400);
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.faq-item.open .faq-question::after {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  font-size: 16px;
+  color: var(--gray-600);
+  line-height: 1.7;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding-top: 0;
+}
+
+.faq-item.open .faq-answer {
+  max-height: 300px;
+  padding-top: 16px;
+}
+
+/* ABOUT */
+.about { background: var(--white); }
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 48px;
+  margin-top: 48px;
+  align-items: start;
+}
+
+.about-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-400);
+  font-size: 13px;
+  overflow: hidden;
+  border: 3px solid var(--gray-200);
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 4px;
+  color: var(--black);
+}
+
+.about-title {
+  font-size: 15px;
+  color: var(--accent-dark);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.about-bio {
+  font-size: 16px;
+  color: var(--gray-600);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.about-creds {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.about-cred {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-500);
+  padding: 6px 14px;
+  background: var(--gray-50);
+  border-radius: 6px;
+  border: 1px solid var(--gray-200);
+}
+
+/* FOOTER */
+footer {
+  padding: 40px 32px;
+  background: var(--black);
+  color: var(--gray-500);
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .problem-grid,
+  .pricing-grid,
+  .about-grid { grid-template-columns: 1fr; }
+  .solution-features { grid-template-columns: 1fr; }
+  .showcase-grid { grid-template-columns: 1fr 1fr; }
+  section { padding: 72px 20px; }
+  .nav-inner { padding: 14px 20px; }
+  h1 { letter-spacing: -1px; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">pawed<span>.ai</span></div>
+    <a href="#waitlist" class="nav-cta">Join the Waitlist</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">Built in collaboration with <span>Luma AI</span></div>
+    <h1>AI-Powered Pet Memorial Apps That Keep Their Memory <em>Alive</em></h1>
+    <p class="hero-sub">Custom-built tribute applications that generate consistent, realistic images of your pet - anywhere in the world. In places they never got to visit.</p>
+    <div class="hero-ctas">
+      <a href="#waitlist" class="btn-primary">Join the Waitlist</a>
+      <a href="https://romeo.pawed.ai" target="_blank" rel="noopener" class="btn-secondary">See Romeo's Tribute App &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<div class="video-section">
+  <div class="video-wrapper">
+    <div id="yt-player" style="width:100%;height:100%;cursor:pointer;background:#000 url('https://img.youtube.com/vi/XZI_FkcTm3w/maxresdefault.jpg') center/cover no-repeat;position:relative;" onclick="this.innerHTML='<iframe src=\'https://www.youtube.com/embed/XZI_FkcTm3w?autoplay=1\' style=\'width:100%;height:100%;border:none;\' allow=\'accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share\' allowfullscreen></iframe>'">
+      <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:48px;background:rgba(255,0,0,0.85);border-radius:14px;display:flex;align-items:center;justify-content:center;transition:background 0.2s;">
+        <div style="width:0;height:0;border-style:solid;border-width:10px 0 10px 18px;border-color:transparent transparent transparent white;margin-left:3px;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROBLEM -->
+<section class="problem" id="why">
+  <div class="section-inner">
+    <div class="section-label">The Problem</div>
+    <h2>Hundreds of Pet Photos. Zero AI Consistency.</h2>
+    <p class="section-text">Most AI image generators struggle to produce consistent images of a single subject. When you apply that to our pets, without an established workflow, every generation is a token lottery - accurate markings one attempt, completely wrong the next.</p>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="icon" role="img" aria-label="Dice representing inconsistent AI outputs">&#x1F3B2;</div>
+        <h3>Inconsistent AI Pet Portraits</h3>
+        <p>Every generation is a roll of the dice. Different markings. Wrong proportions. Ears that change shape. Eyes that shift colour. The output looks like a dog - just not yours.</p>
+      </div>
+      <div class="problem-card">
+        <div class="icon" role="img" aria-label="Phone representing low quality reference photos">&#x1F4F1;</div>
+        <h3>Phone Photos Aren't AI-Ready</h3>
+        <p>You've got hundreds of candid shots, blurry videos, and awkward angles. Great for memories. Terrible as AI reference inputs. The gap between what you have and what AI needs is the entire problem.</p>
+      </div>
+      <div class="problem-card">
+        <div class="icon" role="img" aria-label="No entry sign representing limitations of traditional memorials">&#x1F6AB;</div>
+        <h3>Traditional Pet Memorials Are Static</h3>
+        <p>Custom portraits, engraved urns, memorial jewelry - they capture a single moment. They can't place your pet in new scenes, new environments, new moments you wish you'd had.</p>
+      </div>
+      <div class="problem-card">
+        <div class="icon" role="img" aria-label="Gear representing technical complexity">&#x2699;</div>
+        <h3>AI Image Generation Is Too Technical</h3>
+        <p>Even if you could get consistent outputs, you'd need to understand APIs, prompt engineering, reference image workflows, and deployment. Most pet owners shouldn't have to learn any of this.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTION / HOW IT WORKS -->
+<section class="solution" id="how-it-works">
+  <div class="section-inner">
+    <div class="section-label">How It Works</div>
+    <h2>Your Pet. Any Scene. Every Detail. Generated in 30 Seconds.</h2>
+    <p class="section-text">We build you a custom AI-powered pet tribute application on your own subdomain. No technical knowledge required. Just your photos and your memories.</p>
+    <div class="solution-features">
+      <div class="feature">
+        <div class="feature-num">1</div>
+        <h3>Send Us Your Pet Photos</h3>
+        <p>Share your favourite photos - phone quality is perfect. We use Luma's UNI-1 model to generate a studio-quality reference library that captures every marking, every tuft of fur, every unique detail that made them who they were.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-num">2</div>
+        <h3>We Build Your Custom App in 7 Days</h3>
+        <p>We build a bespoke web application on your own subdomain (yourpet.pawed.ai) - connected to Luma's API, branded, and ready to generate. No templates. No shortcuts. A real application built for your pet.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-num">3</div>
+        <h3>Generate Realistic Pet Images Forever</h3>
+        <p>Describe any scene, any pose, any environment. Your pet on a beach in Santorini. Running through autumn leaves in Kyoto. Sitting beside you in places they never got to visit. Consistent. Realistic. Effortless.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE -->
+<section class="showcase" id="showcase">
+  <div class="section-inner">
+    <div class="section-label">Proof of Work</div>
+    <h2>Meet Romeo - The First pawed.ai Tribute App.</h2>
+    <p class="section-text">Romeo was the dog who started all of this. His tribute app was the first build - and the proof that generative AI could deliver something deeply personal. Every image below was generated in 30 seconds. Every one is consistently him.</p>
+    <a href="https://romeo.pawed.ai" target="_blank" rel="noopener" class="showcase-link">Visit Romeo's Tribute App &rarr;</a>
+    <div class="showcase-grid">
+      <div class="showcase-img"><img src="images/romeo-temple.png" alt="AI-generated image of Romeo leaping at a Thai temple - pawed.ai pet tribute" loading="lazy"></div>
+      <div class="showcase-img"><img src="images/romeo-halong.png" alt="AI-generated image of Romeo on the beach at Ha Long Bay - pawed.ai pet tribute" loading="lazy"></div>
+      <div class="showcase-img"><img src="images/romeo-jumping.png" alt="AI-generated image of Romeo jumping joyfully at an ornate pavilion - pawed.ai pet tribute" loading="lazy"></div>
+      <div class="showcase-img"><img src="images/romeo-library.png" alt="AI-generated image of Romeo sleeping in a cosy leather armchair with books - pawed.ai pet tribute" loading="lazy"></div>
+      <div class="showcase-img"><img src="images/romeo-autumn.png" alt="AI-generated image of Romeo playing in autumn leaves in a Japanese maple forest - pawed.ai pet tribute" loading="lazy"></div>
+      <div class="showcase-img"><img src="images/romeo-memorial.png" alt="AI-generated memorial image of Romeo sitting among lilies and roses - pawed.ai pet tribute" loading="lazy"></div>
+      <div class="showcase-img"><img src="images/romeo-beach.png" alt="AI-generated image of Romeo sitting on a boardwalk at sunset by the ocean - pawed.ai pet tribute" loading="lazy"></div>
+      <div class="showcase-img"><img src="images/romeo-zen.png" alt="AI-generated image of Romeo and cat curled together in a zen sand garden - pawed.ai pet tribute" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <div class="section-inner">
+    <div class="section-label" style="text-align:center;">Pricing</div>
+    <h2 style="text-align:center;">Custom AI Pet Tribute Apps - Built By Hand, Not By Template.</h2>
+    <p class="section-text" style="text-align:center; margin: 0 auto 16px;">Every pawed.ai tribute app is a bespoke AI application - engineered, branded, and deployed by a professional AI developer. This is rare, highly skilled work. The pricing reflects that.</p>
+
+    <div class="pricing-grid" style="margin-top: 56px;">
+      <!-- FOUNDING -->
+      <div class="price-card featured">
+        <div class="price-badge">FOUNDING COHORT</div>
+        <div class="price-tier">Early Access</div>
+        <div class="price-amount">$999</div>
+        <div class="price-note">One-time. Payment upfront. Limited to 20 spots.</div>
+        <ul class="price-features">
+          <li>Custom tribute app on yourpet.pawed.ai</li>
+          <li>12-image studio-quality reference library</li>
+          <li>500 AI image generations included - yours forever</li>
+          <li>7-day build and delivery</li>
+          <li>Branded interface with session gallery</li>
+          <li>Outputs optimised for video tools (Kling, Seedance)</li>
+        </ul>
+        <a href="#waitlist" class="price-cta primary">Join the Waitlist</a>
+      </div>
+
+      <!-- STANDARD -->
+      <div class="price-card">
+        <div class="price-tier">Standard</div>
+        <div class="price-amount">$1,999</div>
+        <div class="price-note">One-time. Payment upfront.</div>
+        <ul class="price-features">
+          <li>Everything in Founding Cohort</li>
+          <li>Expanded 24-image reference library</li>
+          <li>1,000 AI image generations included</li>
+          <li>Priority build queue</li>
+          <li>Enhanced video-optimised outputs</li>
+          <li>Dedicated support during build</li>
+        </ul>
+        <a href="#waitlist" class="price-cta secondary">Join the Waitlist</a>
+      </div>
+    </div>
+
+    <!-- TOP UPS -->
+    <div class="topups">
+      <h3>Need More Pet Image Generations?</h3>
+      <p>Your included generations are yours forever. When you need more, top up anytime.</p>
+      <div class="topup-options">
+        <div class="topup-pill">100 generations - $19</div>
+        <div class="topup-pill">500 generations - $79</div>
+        <div class="topup-pill">1,000 generations - $129</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="section-inner">
+    <div class="section-label" style="text-align:center;">Frequently Asked Questions</div>
+    <h2 style="text-align:center;">Everything You Need to Know About AI Pet Tribute Apps</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">What is a pawed.ai pet tribute app?</div>
+        <div class="faq-answer">A custom-built AI web application deployed on a personalised subdomain (yourpet.pawed.ai) that generates consistent, realistic images of your pet in any scene, pose, or environment. Each app includes a studio-quality reference library built from your photos using Luma's UNI-1 model - capturing every marking, every tuft of fur, every unique detail.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">What photos do I need to provide?</div>
+        <div class="faq-answer">Phone photos are perfect. Share your favourite photos of your pet and we use Luma's UNI-1 model to generate a studio-quality reference library. The more variety (different angles, lighting, poses), the better the reference library. You don't need professional photography - we handle the quality transformation.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How long does it take to build my pet's tribute app?</div>
+        <div class="faq-answer">Each tribute app is custom-built and delivered within 7 days from receiving your photos. This is bespoke engineering work, not a template - your app is built by hand with the same rigour applied to enterprise AI applications.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do I need any technical knowledge to use it?</div>
+        <div class="faq-answer">None at all. The app is designed for anyone to use. In testing, four out of five users had never touched generative AI and found the experience effortless. You describe a scene, choose a style, and hit generate. Your pet appears in 30 seconds.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">What happens when I use all my included generations?</div>
+        <div class="faq-answer">Your included generations (500 or 1,000 depending on tier) are yours forever - they don't expire. When you need more, you can purchase top-up packs starting at $19 for 100 generations. Your tribute app and reference library remain active regardless.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can I use the generated images for video creation?</div>
+        <div class="faq-answer">Yes. Every image generated through your tribute app is optimised for downstream video generation tools like Kling and Seedance. The consistent reference library means your pet looks the same across every frame - essential for believable video content.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Is this only for pets who have passed away?</div>
+        <div class="faq-answer">Not at all. While pawed.ai was born from a memorial project, tribute apps work beautifully for living pets too. Imagine generating images of your dog in places you plan to visit together, or creating a library of consistent images for content creation. The technology serves any pet owner who wants consistent, realistic AI-generated images of their pet.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WAITLIST -->
+<section class="waitlist" id="waitlist">
+  <div class="section-inner" style="text-align:center;">
+    <div class="section-label">Join the Waitlist</div>
+    <h2>Tell Us About Your Pet.</h2>
+
+    <form class="waitlist-form" onsubmit="event.preventDefault(); alert('Waitlist form submitted - connect to your backend');">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@email.com" required autocomplete="email">
+      </div>
+      <div class="form-group">
+        <label for="pet-name">Your Pet's Name</label>
+        <input type="text" id="pet-name" name="pet-name" placeholder="What's their name?" required>
+      </div>
+      <div class="form-group">
+        <label for="tier">Which Tier Are You Interested In?</label>
+        <select id="tier" name="tier" required>
+          <option value="" disabled selected>Select a tier</option>
+          <option value="founding">Founding Cohort - $999</option>
+          <option value="standard">Standard - $1,999</option>
+          <option value="undecided">Not sure yet</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="pet-story">Tell Us About Your Pet</label>
+        <textarea id="pet-story" name="pet-story" placeholder="What made them special? Share as much or as little as you'd like."></textarea>
+      </div>
+      <button type="submit" class="form-submit">Join the Waitlist &rarr;</button>
+      <p class="form-note">Founding cohort spots are limited. We'll reach out personally when your spot opens.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="section-inner">
+    <div class="section-label">Who Built This</div>
+    <div class="about-grid">
+      <div class="about-photo"><img src="images/jonathan-chew.png" alt="Jonathan Chew - The AI Minimalist, Chief AI Officer of BrandRev.ai, founder of pawed.ai"></div>
+      <div class="about-text">
+        <h3>Jonathan Chew</h3>
+        <div class="about-title">The AI Minimalist - Chief AI Officer, BrandRev.ai</div>
+        <p class="about-bio">pawed.ai was born from a personal project - a tribute app built for Romeo, my dog, in collaboration with Luma using early API access to their UNI-1 model. I build AI-powered workflows and applications professionally. I charge $1,200/hr for my time. But some things you build because they matter, not because they pay.</p>
+        <p class="about-bio">Every pawed.ai tribute app is built with the same engineering rigour I apply to enterprise projects. The difference is the purpose. This one's personal.</p>
+        <div class="about-creds">
+          <span class="about-cred">4x LinkedIn Top Voice</span>
+          <span class="about-cred">2x AI & Innovation Award Winner</span>
+          <span class="about-cred">MSc AI & ML</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/jonathanchew/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://www.brandrev.ai/" target="_blank" rel="noopener">BrandRev.ai</a>
+    <a href="https://www.ai-minimalist.com/" target="_blank" rel="noopener">AI Minimalist</a>
+    <a href="https://romeo.pawed.ai" target="_blank" rel="noopener">Romeo's Tribute</a>
+  </div>
+  <p>&copy; 2026 pawed.ai - A BrandRev.ai project. All rights reserved.</p>
+</footer>
+
+<!-- Smooth scroll + FAQ toggle -->
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+  });
+});
+</script>
+
+</body>
+</html>
